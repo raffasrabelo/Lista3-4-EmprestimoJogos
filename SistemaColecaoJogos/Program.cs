@@ -14,7 +14,7 @@ class Program
 
      struct Emprestimo
     {
-        public DateOnly data;
+        public DateTime data;
         public string nomePessoa;
         public bool emprestado;
 
@@ -82,19 +82,52 @@ class Program
 
     static void emprestarJogo(List<Jogos> lista, string nomeJogo)
     {
-        Console.WriteLine("Digite o nome da pessoa que está pegando o jogo emprestado: "); 
-        foreach (Jogos jogo in lista) 
+        int qtd = lista.Count();
+        Console.WriteLine("Digite o nome da pessoa que está pegando o jogo emprestado: ");
+        for (int i = 0; i < qtd; i++)
         {
-            int v = 0;
 
-            if (jogo.titulo.ToUpper().Equals(nomeJogo.ToUpper()) && (v ==0)){
-                lista.emprestimo.emprestado = true;
-                jogo.emprestimo.nomePessoa = Console.ReadLine();
+            if (lista[i].titulo.ToUpper().Equals(nomeJogo.ToUpper()))
+            {
+                if (lista[i].emprestimo.emprestado == true)
+                {
+                    Console.WriteLine("O Jogo já está emprestado!");
+                }
+                else
+                {
+                    Jogos jogoAtualizado = lista[i];
+                    jogoAtualizado.emprestimo.data = DateTime.Now;
+                    Console.WriteLine("Digite o nome da pessoa que está retirando o jogo: ");
+                    jogoAtualizado.emprestimo.emprestado = true;
+                    lista[i] = jogoAtualizado;
+                }
             }
-                
         }
     }
 
+    static void devolverJogo(List<Jogos> lista, string titulo)
+    {
+        int qtd= lista.Count();
+
+        for(int i = 0; i < qtd; i++)
+        {
+            if (lista[i].titulo.ToUpper() == titulo.ToUpper())
+            {
+                if (lista[i].emprestimo.emprestado == false)
+                {
+                    Console.WriteLine("O Jogo não está emprestado!");
+                }
+                else
+                {
+                    Jogos jogoAtualizado = lista[i];
+                    jogoAtualizado.emprestimo.data = DateTime.MinValue;
+                    jogoAtualizado.emprestimo.nomePessoa = "";
+                    jogoAtualizado.emprestimo.emprestado = false;
+                    lista[i] = jogoAtualizado;
+                }
+            }
+        }
+    }
     static void Main()
     {
 
