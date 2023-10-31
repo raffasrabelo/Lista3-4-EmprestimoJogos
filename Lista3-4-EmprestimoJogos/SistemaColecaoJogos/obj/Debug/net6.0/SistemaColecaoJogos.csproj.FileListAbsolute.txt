@@ -1,0 +1,15 @@
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\bin\Debug\net6.0\SistemaColecaoJogos.exe
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\bin\Debug\net6.0\SistemaColecaoJogos.deps.json
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\bin\Debug\net6.0\SistemaColecaoJogos.runtimeconfig.json
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\bin\Debug\net6.0\SistemaColecaoJogos.dll
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\bin\Debug\net6.0\SistemaColecaoJogos.pdb
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\SistemaColecaoJogos.csproj.AssemblyReference.cache
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\SistemaColecaoJogos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\SistemaColecaoJogos.AssemblyInfoInputs.cache
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\SistemaColecaoJogos.AssemblyInfo.cs
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\SistemaColecaoJogos.csproj.CoreCompileInputs.cache
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\SistemaColecaoJogos.dll
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\refint\SistemaColecaoJogos.dll
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\SistemaColecaoJogos.pdb
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\SistemaColecaoJogos.genruntimeconfig.cache
+C:\Users\raffa\Source\Repos\Lista3-4-EmprestimoJogos\SistemaColecaoJogos\obj\Debug\net6.0\ref\SistemaColecaoJogos.dll
